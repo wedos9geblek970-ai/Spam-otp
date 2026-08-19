@@ -50,7 +50,7 @@ pkg install python git -y
 # 4. Clone repository
 git clone https://github.com/MonzXterRex/Spam-otp
 
-cd otp
+cd Spam-otp
 
 # 5. Install dependencies
 pip install -r requirements.txt
